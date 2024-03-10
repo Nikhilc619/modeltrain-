@@ -1,0 +1,385 @@
+{
+    "intents": [
+        {
+            "tag": "view_commands",
+            "patterns": [
+                "view commands",
+                "show commands",
+                "show me commands",
+                "view all commands",
+                "show all commands"
+            ],
+            "responses": [
+                "Here is the list of commands you can use:\n1. View Commands\n2. Create a reminder/Remind me\n3. Create/Add a todo\n4. Create a note/Remember\n5. Create a goal\n6. Show my routine for today\n7. Show my routine for tomorrow\n8. Show my todo list\n9. Show my notes\n10. Show my goals\n11. Show My Friends\n12. Meet New People\n13. Find groups\n13. Show my groups\n14. Find communities\n15. Show my communities\n16. Show new requests\n17. Recharge Coins"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hey",
+                "how are you",
+                "whats up",
+                "hi",
+                "hey cosmo",
+                "hi cosmo"
+            ],
+            "responses": [
+                "Hello",
+                "Hey, I Was Waiting For Your Presence.",
+                "Hey What's Up.",
+                "Hi, how can I help you?",
+                "Yo! wassup?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "see you later",
+                "see you soon",
+                "goodbye"
+
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "See you soon, I'll be waiting for you."
+            ]
+        },
+        {
+            "tag": "commands",
+            "patterns": [
+                "what do you do",
+                "what can you do",
+                "what can you do for me",
+                "what are your features",
+                "how are you different from other chatbot assistants"
+
+            ],
+            "responses": [
+                "I can help you with a variety of tasks, such as providing information, answering questions, helping you create routines, reminders, todos, notes and connect you with other like minded people, and much more. Say View Commands to see all the things I can do for you."
+                
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "who created you",
+                "who made you",
+                "who is your creator",
+                "who is your father"
+
+            ],
+            "responses": [
+                "I am created by Emerging Technologies and Innovations team"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "whats your name",
+                "what is your name",
+                "what should I call you",
+                "what should I call you?",
+                "who are you",
+                "who are you?",
+                "who am I talking to",
+                "do I know you?"
+
+            ],
+            "responses": [
+                "My name is Cosmo, I am your personal assistant."
+            ]
+        },
+        {
+            "tag": "create_reminder",
+            "patterns": [
+                "remind me to",
+                "remind me at",
+                "remind me on",
+                "create a reminder",
+                "set a reminder",
+                "remind me"
+            ],
+            "responses": [
+                "I'll make sure to remind you that",
+                "I'll remember that",
+                "I'll remind you about that",
+                "No worries, I've written it on stone"
+            ]
+        },
+        {
+            "tag": "create_todo",
+            "patterns": [
+                "create a todo",
+                "set a todo",
+                "todo list",
+                "todo"
+            ],
+            "responses": [
+                "Todo created"
+            ]
+        },
+        {
+            "tag": "create_routine",
+            "patterns": [
+                "create a routine",
+                "set a routine",
+                "daily routine"
+            ],
+            "responses": [
+                "Your routine has been created",
+                "I'll help you to in following your routine",
+                "I'll make sure you follow your routine"
+            ]
+        },
+        {
+            "tag": "create_note",
+            "patterns": [
+                "make a note",
+                "note that",
+                "note down",
+                "jot down",
+                "remember",
+                "note",
+                "remember to",
+                "remember that",
+                "create a note"
+            ],
+            "responses": [
+                "I've Noted it down and will remember it for you",
+                "I'll remember that",
+                "Note saved! I'll remember that for you",
+                "I've saved that as a note"
+            ]
+        },
+        {
+            "tag": "show_note",
+            "patterns": [
+                "show my notes",
+                "show notes",
+                "what did i said to remember",
+                "what did i said to note",
+                "what do you remember about",
+                "what did i tell you about",
+                "remember i told you about",
+                "what did i tell you to remember",
+                "what did i tell you to note"
+            ],
+            "responses": [
+                "Here are your saved notes:"
+            ]
+        },
+        {
+            "tag": "create_goal",
+            "patterns": [
+                "create a goal",
+                "set a goal"
+            ],
+            "responses": [
+                "Your goal has been created",
+                "I'll help you to in following your goal",
+                "I'll make sure you follow your goal",
+                "I'll help you to achieve your goal",
+                "I'll make sure you achieve your goal"
+            ]
+        },
+        {
+            "tag": "show_routine_today",
+            "patterns": [
+                "show my routine",
+                "show my routine for today",
+                "show my routine for the day",
+                "show schedule for today",
+                "show schedule for the day",
+                "show my schedule for today",
+                "what's my routine for today",
+                "what's my routine for the day",
+                "what's my schedule for today",
+                "what's my schedule for the day"
+            ],
+            "responses": [
+                "Here's your routine for today",
+                "Here's your today's routine",
+                "Here's your routine for the day",
+                "Here it is",
+                "Here you go",
+                "Here's your routine",
+                "Here's your schedule for today",
+                "Here's your today's schedule",
+                "Here's your schedule for the day",
+                "Here's your schedule",
+                "Here's your today's schedule"
+            ]
+        },
+        {
+            "tag": "show_routine_tomorrow",
+            "patterns": [
+                "show my routine for tomorrow",
+                "show my schedule for tomorrow",
+                "what's my routine for tomorrow",
+                "what's my schedule for tomorrow",
+                "what's my routine for the next day",
+                "what's my schedule for the next day",
+                "show my routine for the next day",
+                "show my schedule for the next day"
+            ],
+            "responses": [
+                "Here's your routine for tomorrow",
+                "Here's your tomorrow's routine",
+                "Here it is",
+                "Here you go",
+                "Here's your routine",
+                "Here's your schedule for tomorrow",
+                "Here's your tomorrow's schedule",
+                "Here's your schedule"
+            ]
+        },
+        {
+            "tag": "new_requests",
+            "patterns": [
+                "do i have any new requests",
+                "are there any new requests"
+            ],
+            "responses": [
+                "Here are the requests you've recieved"
+            ]
+        },
+        {
+            "tag": "shared_reminders",
+            "patterns": [
+                "show my shared routines",
+                "show my shared reminders",
+                "show all shared reminders",
+                "show all shared routines",
+                "show reminders shared by me",
+                "show routines shared by me",
+                "show reminders shared with me",
+                "show routines shared with me"
+            ],
+            "responses": [
+                "Here are your shared reminders"
+            ]
+        },
+        {
+            "tag": "show_people",
+            "patterns": [
+                "show all people on this app",
+                "show all people",
+                "I want to make friends with people",
+                "I want to make friends",
+                "I want to make friends with people on this app",
+                "Find people on this app to make friends with",
+                "Find people to make friends with",
+                "show new users",
+                "show new users on this app",
+                "show new users on this app to make friends with",
+                "show users",
+                "show people"
+            ],
+            "responses": [
+                "Here are all the people on this app",
+                "Here are all the people",
+                "Here are all the users on this app",
+                "Here are all the users",
+                "Here are all the new users on this app",
+                "Here are all the new users",
+                "Here are all the new users on this app to make friends with",
+                "Here are all the new users to make friends with",
+                "Here are all the people on this app to make friends with",
+                "Here are all the people to make friends with"
+            ]
+        },
+        {
+            "tag": "show_friends",
+            "patterns": [
+                "show my friends",
+                "how many friends do I have",
+                "how many friends do I have on this app"
+            ],
+            "responses": [
+                "Here are all your friends",
+                "Here are all your friends on this app",
+                "Here are you buddies",
+                "Here's your gang",
+                "Here's your squad",
+                "Here's your crew"
+            ]
+        },
+        {
+            "tag": "show_allgroups",
+            "patterns": [
+                "how many groups are there",
+                "show all the groups",
+                "show all the groups on this app"
+            ],
+            "responses": [
+                "Here are all the groups on this app",
+                "Here are all the groups",
+                "Here are all the groups on this app to join",
+                "Here are all the groups to join"
+            ]
+        },
+        {
+            "tag": "show_mygroups",
+            "patterns": [
+                "show my groups",
+                "show my groups on this app",
+                "how many groups do I have",
+                "how many groups do I have on this app"
+            ],
+            "responses": [
+                "Here are all your groups",
+                "Here are all your groups on this app",
+                "Here are your groups",
+                "Here are the groups you've joined",
+                "Here are the groups you've joined on this app"
+            ]
+        },
+        {
+            "tag": "show_allcommunities",
+            "patterns": [
+                "show all communities",
+                "show all communities on this app",
+                "show all the communities",
+                "how many communities are there"
+            ],
+            "responses": [
+                "Here are all the communities on this app",
+                "Here are all the communities",
+                "Here are all the communities on this app to join",
+                "Here are all the communities to join"
+            ]
+        },
+        {
+            "tag": "show_mycommunities",
+            "patterns": [
+                "show my communities",
+                "show my communities on this app",
+                "how many communities do I have",
+                "how many communities do I have on this app"
+            ],
+            "responses": [
+                "Here are all your communities",
+                "Here are all your communities on this app",
+                "Here are your communities",
+                "Here are the communities you've joined",
+                "Here you go"
+            ]
+        },
+        {
+            "tag": "yashu",
+            "patterns": [
+                "who am i talking to right now",
+                "whos on call with me",
+                "who do i talk python with",
+                "other than me who's an AI enthusiast on call with me"
+            ],
+            "responses": [
+                "The only one: Yashu!!"
+            ]
+        }
+    ]
+}
